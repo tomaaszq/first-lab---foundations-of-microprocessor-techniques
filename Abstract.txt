@@ -1,0 +1,18 @@
+Przyklad ilustruje zasady tworzenia projektu (1_main) dla:
+
+ - modul: LPC1114/302 LPCXpresso Board
+
+ - czestotliwosc generatora taktujacego mikrokontroler:
+		rezonator kwarcowy XTAL = 12 MHz
+		
+ - czestotliwosc taktowania rdzenia mikrokontrolera oraz GPIO:
+		CCLK (Core Clock) = 48 MHz
+
+ - sterowanie dioda LED, linia portu PIO0_7
+		PIO0_7 = LOW,  dioda LED wylaczona (OFF)
+		PIO0_7 = HIGH, dioda LED wlaczona (ON)
+
+ - dioda LED wlaczona / wylaczona programowo
+   czasu wlaczenia/wylaczenia diody LED w podprogramie Opoznienie
+
+ - program wynikowy wpisywany do pamieci Flash
